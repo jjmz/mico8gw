@@ -1,0 +1,19 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1QN48C6/I5">gw1nz1-015</Device>
+    <FileList>
+        <File path="src/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/isp8_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/isp8_core.v" type="file.verilog" enable="1"/>
+        <File path="src/isp8_flow_cntl.v" type="file.verilog" enable="1"/>
+        <File path="src/isp8_idec.v" type="file.verilog" enable="1"/>
+        <File path="src/isp8_io_cntl.v" type="file.verilog" enable="1"/>
+        <File path="src/tang1k-top.v.v" type="file.verilog" enable="1"/>
+        <File path="src/mico8gw.cst" type="file.cst" enable="1"/>
+        <File path="src/mico8gw.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
